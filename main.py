@@ -1,8 +1,21 @@
 from reading import Reading
+from calculations import Calculations
+from user import User
 
-readings = Reading()
-numbers = [1, 2, 4, 5, 6, 7, 8, 9, 11, 22]
-for number in numbers:
-    num_as_str = str(number)
-    readings.get_reading('soul_urge', num_as_str)
-    readings.print_reading()
+fn = "thomas"
+md = "edward"
+ln = "Smith"
+bd = "02011982"
+
+tommy = User(fn, md, ln, bd)
+
+calculations = Calculations(tommy)
+expression = calculations.get_expression_num()
+print(expression)
+
+
+# Get and print a reading
+reading = Reading()
+reading.get_reading('expression', str(expression))
+reading.print_reading()
+
