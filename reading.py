@@ -34,7 +34,7 @@ class Reading:
 
     def print_reading(self):
         reading = self.reading
-        qy.print(reading['header'], style='bold fg:green')
+        qy.print(reading['header'], style='bold fg:')
         print("")
         for paragraph in reading['body_paragraphs']:
             self.__print_paragraph(paragraph)
