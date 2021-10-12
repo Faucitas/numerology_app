@@ -16,7 +16,9 @@ class Reading:
         self.number = None
         self.readings = readings
 
-    def get_reading(self, reading_name, individual_num):
+    def get_reading(self, reading: dict):
+        reading_name = reading['name']
+        individual_num = reading['number']
         all_readings = self.readings[reading_name]
         user_reading = all_readings[individual_num]
 
