@@ -1,2 +1,3 @@
+art
 questionary
-textwrap3
+rich
