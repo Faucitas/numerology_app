@@ -3,6 +3,7 @@ class User:
         self.first_name = first_name
         self.middle_name = middle_name
         self.last_name = last_name
+        self.full_name = [first_name, middle_name, last_name]
         self.birth_date = birth_date
 
     def get_first_name(self):
