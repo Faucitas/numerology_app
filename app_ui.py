@@ -1,17 +1,16 @@
 import questionary as qy
-from art import text2art
+from art import text2art, tprint
+from rich.console import Console
 from questionary import Separator
-
+console = Console()
 
 def display_heading():
     heading_text = {
         "heading": "Numerologoy",
         "sub_heading": "Calculate your unique numbers"
     }
-    heading_first_lt = text2art(heading_text['heading'][0], font="cybermedium")
-
-    heading = text2art(heading_text['heading'].upper(), font="thin3")
-    sub_heading = text2art(heading_text['sub_heading'], font="sunday_cuddle")
+    heading = text2art(heading_text['heading'].upper(), font="cybermedium")
+    sub_heading = text2art(heading_text['sub_heading'   ], font="thin3")
     print(heading)
     print(sub_heading)
 
@@ -26,6 +25,7 @@ def prompt_user_name():
     ).ask()
     return user
 
+
 def prompt_birth_date():
     validation = lambda text: True if text.isdigit() else "Please enter the a number"
     year_validation = lambda text: True if len(text) == 4 else "Enter 4 digit year"
@@ -35,6 +35,7 @@ def prompt_birth_date():
         birth_year = qy.text("Year of birth", validate=year_validation)
     ).ask()
     return birth_date
+
 
 def prompt_reading_choice():
     reading_choice = qy.select(
@@ -48,4 +49,25 @@ def prompt_reading_choice():
 
     return reading_choice
 
-display_heading()
+
+def prompt_navigation():
+    nav_choice = qy.select(
+        "What would you like to do",
+        choices=[
+            "Continue",
+            "Quit"
+        ]
+    ).ask()
+    return nav_choice
+
+def print_section(section: dict):
+    heading = section['heading']
+    title = section['title']
+    body = section['body_paragraphs']
+    tprint(heading, font="thin3")
+    print("")
+    console.print(title, style="bold")
+    print("")
+    for paragraph in body:
+        console.print(paragraph)
+        print("")

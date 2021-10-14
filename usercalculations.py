@@ -7,6 +7,7 @@ with open(LETTERS_DB, 'r') as file:
 LETTER_VALUES = letters['letter_values']
 VOWELS = letters['vowels']
 
+
 class UserCalculations(User):
     def __init__(self,first_name, middle_name, last_name, birth_date):
         super().__init__(first_name, middle_name, last_name, birth_date)
@@ -61,7 +62,7 @@ class UserCalculations(User):
         date = self.birth_date
         date_numbers = [int(number) for number in date]
         reduced_num = self.__reduce_numbers(date_numbers)
-        return {"name": "life_path", "number": reduced_num}
+        return {"key": "life_path", "number": str(reduced_num)}
 
     def __calculate_soul_urge_num(self):
         letters = ""
