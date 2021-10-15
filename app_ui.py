@@ -18,9 +18,9 @@ def prompt_user_name():
     console.print("Please enter your full birth name", style="bold color(3)", )
     console.print("As it appears on your birth certificate", style="italic")
     user: object = qy.form(
-        first_name = qy.text("First name", validate=validation),
-        middle_name = qy.text("Middle name", validate=validation),
-        last_name = qy.text("Last name", validate=validation)
+        first_name=qy.text("First name", validate=validation),
+        middle_name=qy.text("Middle name", validate=validation),
+        last_name=qy.text("Last name", validate=validation)
     ).ask()
     return user
 
@@ -29,23 +29,28 @@ def prompt_birth_date():
     validation = lambda text: True if text.isdigit() else "Please enter the a number"
     year_validation = lambda text: True if len(text) == 4 else "Enter 4 digit year"
     birth_date = qy.form(
-        birth_month = qy.text("Month of birth", validate=validation),
-        birth_day = qy.text("Day of birth", validate=validation),
-        birth_year = qy.text("Year of birth", validate=year_validation)
+        birth_month=qy.text("Month of birth", validate=validation),
+        birth_day=qy.text("Day of birth", validate=validation),
+        birth_year=qy.text("Year of birth", validate=year_validation)
     ).ask()
     return birth_date
 
 
 def prompt_reading_choice():
     reading_choice = qy.select(
-        "Choose a reading",
+        "Which number would you like to calculate",
         choices=[
             "Life Path Number",
             "Soul Urge Number",
             "Expression Number"
-        ]
+    ]
     ).ask()
-
+    if reading_choice == "Life Path Number":
+        reading_choice = "life_path"
+    elif reading_choice == "Soul Urge Number":
+        reading_choice = "soul_urge"
+    elif reading_choice == "Expression Number":
+        reading_choice = "expression"
     return reading_choice
 
 
@@ -79,7 +84,6 @@ def display_heading():
     print(heading)
 
 
-
 def display_letter_table():
     title = "The way that we do this in numerology, is by using the alphabet conversion chart below:"
     table = Table(title=title)
@@ -102,6 +106,7 @@ def display_letter_table():
     # Print table
     console.print(table)
 
+
 def display_app_description():
     heading = APP_DESCRIPTION['heading']
     description = {
@@ -112,11 +117,13 @@ def display_app_description():
 
     print_section(description)
 
+
 def greet_user(user: dict) -> None:
     first_name = user['first_name']
     middle_name = user['middle_name']
     last_name = user['last_name']
     console.print(f"Hello {first_name} {middle_name} {last_name}", style="bold")
+
 
 def clear_console() -> None:
     command = 'clear'
