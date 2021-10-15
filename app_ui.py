@@ -8,12 +8,12 @@ import os
 console = Console()
 
 with open('data/letters.json', 'r') as file:
-    data = json.load(file)
-LETTERS_TABLE = data['letters_table']
-APP_DESCRIPTION = data['app_description']
+    data: dict = json.load(file)
+LETTERS_TABLE: dict = data['letters_table']
+APP_DESCRIPTION: dict = data['app_description']
 
 
-def prompt_user_name():
+def prompt_user_name() -> object:
     validation = lambda text: True if text.isalpha() else "Please enter only letters"
     console.print("Please enter your full birth name", style="bold color(3)", )
     console.print("As it appears on your birth certificate", style="italic")
@@ -25,10 +25,10 @@ def prompt_user_name():
     return user
 
 
-def prompt_birth_date():
+def prompt_birth_date() -> object:
     validation = lambda text: True if text.isdigit() else "Please enter the a number"
     year_validation = lambda text: True if len(text) == 4 else "Enter 4 digit year"
-    birth_date = qy.form(
+    birth_date: object = qy.form(
         birth_month=qy.text("Month of birth", validate=validation),
         birth_day=qy.text("Day of birth", validate=validation),
         birth_year=qy.text("Year of birth", validate=year_validation)
@@ -36,14 +36,14 @@ def prompt_birth_date():
     return birth_date
 
 
-def prompt_reading_choice():
-    reading_choice = qy.select(
+def prompt_reading_choice() -> str:
+    reading_choice: str = qy.select(
         "Which number would you like to calculate",
         choices=[
             "Life Path Number",
             "Soul Urge Number",
             "Expression Number"
-    ]
+        ]
     ).ask()
     if reading_choice == "Life Path Number":
         reading_choice = "life_path"
@@ -54,21 +54,21 @@ def prompt_reading_choice():
     return reading_choice
 
 
-def prompt_navigation():
-    nav_choice = qy.select(
+def prompt_navigation() -> bool:
+    nav_choice: str = qy.select(
         "Would you like to continue?",
         choices=[
             "Continue",
             "Quit"
         ]
     ).ask()
-    return nav_choice
+    return True if nav_choice == 'Quit' else False
 
 
-def print_section(section: dict):
-    heading = section['heading']
-    title = section['title']
-    body = section['body_paragraphs']
+def print_section(section: dict) -> None:
+    heading: str = section['heading']
+    title: str = section['title']
+    body: str = section['body_paragraphs']
     tprint(heading, font="thin3")
     print("")
     console.print(title, style="bold")
@@ -78,18 +78,18 @@ def print_section(section: dict):
         print("")
 
 
-def display_heading():
-    heading_text = "Numerologoy"
-    heading = text2art(heading_text.upper(), font="cybermedium")
+def display_heading() -> None:
+    heading_text: str = "Numerologoy"
+    heading: str = text2art(heading_text.upper(), font="cybermedium")
     print(heading)
 
 
-def display_letter_table():
-    title = "The way that we do this in numerology, is by using the alphabet conversion chart below:"
-    table = Table(title=title)
+def display_letter_table() -> None:
+    title: str = "Numerology alphabet conversion chart"
+    table: Table = Table(title=title)
     # Create table headers
     for number in LETTERS_TABLE:
-        table.add_column(number, justify="right", style="cyan", no_wrap=True)
+        table.add_column(number, justify="center", style="cyan", no_wrap=True)
     # Fill table rows
     for i in range(0, 3):
         table.add_row(
@@ -107,8 +107,8 @@ def display_letter_table():
     console.print(table)
 
 
-def display_app_description():
-    heading = APP_DESCRIPTION['heading']
+def display_app_description() -> None:
+    heading: str = APP_DESCRIPTION['heading']
     description = {
         'heading': "Calculate your unique numbers",
         'title': APP_DESCRIPTION['heading'],
@@ -118,15 +118,8 @@ def display_app_description():
     print_section(description)
 
 
-def greet_user(user: dict) -> None:
-    first_name = user['first_name']
-    middle_name = user['middle_name']
-    last_name = user['last_name']
-    console.print(f"Hello {first_name} {middle_name} {last_name}", style="bold")
-
-
 def clear_console() -> None:
-    command = 'clear'
+    command: str = 'clear'
     # If Machine is running on Windows, use cls
     if os.name in ('nt', 'dos'):
         command = 'cls'
