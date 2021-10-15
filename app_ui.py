@@ -1,8 +1,15 @@
 import questionary as qy
 from art import text2art, tprint
 from rich.console import Console
-from questionary import Separator
+from rich.table import Table
+import json
+
 console = Console()
+
+with open('data/letters.json', 'r') as file:
+    data = json.load(file)
+LETTERS_TABLE = data['letters_table']
+
 
 def display_heading():
     heading_text = {
@@ -10,7 +17,7 @@ def display_heading():
         "sub_heading": "Calculate your unique numbers"
     }
     heading = text2art(heading_text['heading'].upper(), font="cybermedium")
-    sub_heading = text2art(heading_text['sub_heading'   ], font="thin3")
+    sub_heading = text2art(heading_text['sub_heading'], font="thin3")
     print(heading)
     print(sub_heading)
 
@@ -60,6 +67,7 @@ def prompt_navigation():
     ).ask()
     return nav_choice
 
+
 def print_section(section: dict):
     heading = section['heading']
     title = section['title']
@@ -71,3 +79,27 @@ def print_section(section: dict):
     for paragraph in body:
         console.print(paragraph)
         print("")
+
+
+def display_letter_table():
+    title = "THE WAY THAT WE DO THIS IN NUMEROLOGY, IS BY USING THE ALPHABET CONVERSION CHART BELOW:"
+    table = Table(title=title)
+    for number in LETTERS_TABLE:
+        table.add_column(number, justify="right", style="cyan", no_wrap=True)
+
+    for i in range(0, 3):
+        table.add_row(
+            LETTERS_TABLE['1'][i],
+            LETTERS_TABLE['2'][i],
+            LETTERS_TABLE['3'][i],
+            LETTERS_TABLE['4'][i],
+            LETTERS_TABLE['5'][i],
+            LETTERS_TABLE['6'][i],
+            LETTERS_TABLE['7'][i],
+            LETTERS_TABLE['8'][i],
+            LETTERS_TABLE['9'][i]
+        )
+
+    return console.print(table)
+
+display_letter_table()

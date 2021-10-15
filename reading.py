@@ -16,16 +16,20 @@ class Reading:
         self.description = self.__get_description_from_db()
         self.directions = self.__get_directions_from_db()
 
+
     def get_reading(self):
         return self.reading
 
     def get_description(self):
         return self.description
 
+    def get_directions(self):
+        return self.directions
+
     def __get_description_from_db(self):
         description = READING_DB[self.reading_key]['description']
         reading_description = {
-            "heading": f"{self.reading_name},
+            "heading": f"{self.reading_name} {self.reading_num}",
             "title": description['heading'],
             "body_paragraphs": description['paragraphs']
         }
@@ -44,3 +48,14 @@ class Reading:
         return reading
 
     def __get_directions_from_db(self):
+        directions = READING_DB[self.reading_key]['directions']
+        heading = f"How to calculate your {self.reading_name} number"
+        reading_directions = {
+            'heading': heading,
+            'title': directions['heading'],
+            'body_paragraphs': directions['paragraphs']
+        }
+
+        return reading_directions
+
+

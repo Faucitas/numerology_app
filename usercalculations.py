@@ -9,8 +9,8 @@ VOWELS = letters['vowels']
 
 
 class UserCalculations(User):
-    def __init__(self,first_name, middle_name, last_name, birth_date):
-        super().__init__(first_name, middle_name, last_name, birth_date)
+    def __init__(self,full_name, birth_date):
+        super().__init__(full_name, birth_date)
         self.life_path_num = self.__calculate_life_path_num()
         self.soul_urge_num = self.__calculate_soul_urge_num()
         self.expression_num = self.__calculate_expression_num()
@@ -59,24 +59,24 @@ class UserCalculations(User):
             return True
 
     def __calculate_life_path_num(self):
-        date = self.birth_date
+        date = self.get_birth_date_str()
         date_numbers = [int(number) for number in date]
         reduced_num = self.__reduce_numbers(date_numbers)
         return {"key": "life_path", "number": str(reduced_num)}
 
     def __calculate_soul_urge_num(self):
         letters = ""
-        for name in self.full_name:
+        for name in self.full_name_list:
             vowels_only = self.__extract_vowels(name)
             letters += vowels_only
         letter_values = self.__letters_to_numbers(letters)
         reduced_number = self.__reduce_numbers(letter_values)
-        return {"name": "soul_urge", "number": str(reduced_number)}
+        return {"key": "soul_urge", "number": str(reduced_number)}
 
     def __calculate_expression_num(self):
         full_name = ""
-        for name in self.full_name:
+        for name in self.full_name_list:
             full_name += name
         letter_values = self.__letters_to_numbers(full_name)
         reduced_number = self.__reduce_numbers(letter_values)
-        return {"name": "expression", "number": str(reduced_number)}
+        return {"key": "expression", "number": str(reduced_number)}
