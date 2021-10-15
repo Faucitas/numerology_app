@@ -1,11 +1,10 @@
 {
   "life_path": {
-    "name": "Life Path",
+    "name": "Life Path Number",
     "description": {
       "heading": "The Life Path Number Is The Most Significant Number In Your Numerology Chart.",
       "paragraphs": [
-        "It contains clear, accurate and dependable information on what your life’s journey will actually look like. It describes the direction your life will take, the challenges you’ll encounter, and the opportunities you’ll meet. It can also reveal many of the innate traits and talents that you were born with, some of which you might not even know you possess!",
-        "Unlike many other systems of divination and forecasting, Numerology doesn’t require complex counting systems or ancient almanacs. This is because it comes from a simple set of numbers which were chosen by your soul at the moment you incarnated here on planet Earth. They were encoded then, with the keys to your life’s purpose, yet are so ordinary and familiar they are often overlooked…"
+        "It contains clear, accurate and dependable information on what your life’s journey will actually look like. It describes the direction your life will take, the challenges you’ll encounter, and the opportunities you’ll meet. It can also reveal many of the innate traits and talents that you were born with, some of which you might not even know you possess!"
       ]
     },
     "directions": {
@@ -112,14 +111,12 @@
     }
   },
   "soul_urge": {
-    "name": "Soul Urge",
+    "name": "Soul Urge Number",
     "description": {
       "heading": "Numerology Basics: What Is The Soul Urge Number?",
       "paragraphs": [
         "Often referred to as the Heart’s Desire, or Soul Number, this core element of your personal numerology chart peels back the layers of your Numerology chart.",
-        "Whilst your Life Path Number gives meaning to the direction of your journey through life, and your Destiny Number reveals your gifts, talents, and unique offerings to the world, the Soul Urge Number is what unlocks the deeper you, the eternal, spiritual you, the you which is so often hidden from the outside world.",
-        "Deciphering this hidden, personal code reveals your core desires, your inner cravings and urges, your passions and your fears and what motivates you on a deep, spiritual level. The Soul Urge, quite simply, reveals the guiding force behind what your Soul came here to experience in this lifetime.",
-        "Once this number is uncovered, for many people, life begins to make sense. Depression and anxiety often lift, as the stirrings of the Soul can be finally recognized, nurtured, and given the fuel that it need to thrive and find meaning in the world."
+        "Whilst your Life Path Number gives meaning to the direction of your journey through life, and your Destiny Number reveals your gifts, talents, and unique offerings to the world, the Soul Urge Number is what unlocks the deeper you, the eternal, spiritual you, the you which is so often hidden from the outside world."
       ]
     },
     "directions": {
@@ -227,14 +224,14 @@
     }
   },
   "expression": {
+    "name": "Expression Number",
     "description": {
       "heading": "The Expression or Destiny Number is the second of the core numbers in your personal numerology chart.",
       "paragraphs": [
         "Calculating it, and uncovering its meaning will reveal a great deal of information about your natural talents, abilities, and potentials in this lifetime.",
         "Whilst your Life Path Number (which comes from your birth date) describes the direction of your journey through life, the Expression Number centers on what you, uniquely, have to offer to the world.",
-        "Within the art of Numerology, this is the number that contains information about your inherent gifts, talents, and skills. But also about your personal shortcomings and the potential challenges you may face. Because of this, it offers valuable insights into the areas of your personality that, with work and development, could become your greatest strengths. As such, the Destiny Number is often said to be the blueprint of your potential.",
-        "Once decoded, this number forms a highly potent portrait of your inherited personal history, up to the moment of your birth. After this point, it is your choice how your story continues. After all, we each choose our own destiny! But you will carry this powerful coding with you, for the rest of your life."
-      ]
+        "Within the art of Numerology, this is the number that contains information about your inherent gifts, talents, and skills. But also about your personal shortcomings and the potential challenges you may face. Because of this, it offers valuable insights into the areas of your personality that, with work and development, could become your greatest strengths. As such, the Destiny Number is often said to be the blueprint of your potential."
+       ]
     },
     "directions": {
       "heading": "In Numerology, the Expression Number is calculated using the corresponding numbers for each letter in your full name at birth, according to the Pythagorean system.",
