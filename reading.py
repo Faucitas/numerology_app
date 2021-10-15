@@ -57,5 +57,3 @@ class Reading:
         }
 
         return reading_directions
-
-

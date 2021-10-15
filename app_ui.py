@@ -3,28 +3,20 @@ from art import text2art, tprint
 from rich.console import Console
 from rich.table import Table
 import json
+import os
 
 console = Console()
 
 with open('data/letters.json', 'r') as file:
     data = json.load(file)
 LETTERS_TABLE = data['letters_table']
-
-
-def display_heading():
-    heading_text = {
-        "heading": "Numerologoy",
-        "sub_heading": "Calculate your unique numbers"
-    }
-    heading = text2art(heading_text['heading'].upper(), font="cybermedium")
-    sub_heading = text2art(heading_text['sub_heading'], font="thin3")
-    print(heading)
-    print(sub_heading)
+APP_DESCRIPTION = data['app_description']
 
 
 def prompt_user_name():
     validation = lambda text: True if text.isalpha() else "Please enter only letters"
-    qy.print("Please enter your full birth name", style="bold fg:orange")
+    console.print("Please enter your full birth name", style="bold color(3)", )
+    console.print("As it appears on your birth certificate", style="italic")
     user: object = qy.form(
         first_name = qy.text("First name", validate=validation),
         middle_name = qy.text("Middle name", validate=validation),
@@ -59,7 +51,7 @@ def prompt_reading_choice():
 
 def prompt_navigation():
     nav_choice = qy.select(
-        "What would you like to do",
+        "Would you like to continue?",
         choices=[
             "Continue",
             "Quit"
@@ -81,12 +73,20 @@ def print_section(section: dict):
         print("")
 
 
+def display_heading():
+    heading_text = "Numerologoy"
+    heading = text2art(heading_text.upper(), font="cybermedium")
+    print(heading)
+
+
+
 def display_letter_table():
-    title = "THE WAY THAT WE DO THIS IN NUMEROLOGY, IS BY USING THE ALPHABET CONVERSION CHART BELOW:"
+    title = "The way that we do this in numerology, is by using the alphabet conversion chart below:"
     table = Table(title=title)
+    # Create table headers
     for number in LETTERS_TABLE:
         table.add_column(number, justify="right", style="cyan", no_wrap=True)
-
+    # Fill table rows
     for i in range(0, 3):
         table.add_row(
             LETTERS_TABLE['1'][i],
@@ -99,7 +99,28 @@ def display_letter_table():
             LETTERS_TABLE['8'][i],
             LETTERS_TABLE['9'][i]
         )
+    # Print table
+    console.print(table)
 
-    return console.print(table)
+def display_app_description():
+    heading = APP_DESCRIPTION['heading']
+    description = {
+        'heading': "Calculate your unique numbers",
+        'title': APP_DESCRIPTION['heading'],
+        'body_paragraphs': APP_DESCRIPTION['paragraphs']
+    }
 
-display_letter_table()
+    print_section(description)
+
+def greet_user(user: dict) -> None:
+    first_name = user['first_name']
+    middle_name = user['middle_name']
+    last_name = user['last_name']
+    console.print(f"Hello {first_name} {middle_name} {last_name}", style="bold")
+
+def clear_console() -> None:
+    command = 'clear'
+    # If Machine is running on Windows, use cls
+    if os.name in ('nt', 'dos'):
+        command = 'cls'
+    os.system(command)

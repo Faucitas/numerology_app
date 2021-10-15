@@ -8,4 +8,16 @@ console = Console()
 
 
 
-app.display_heading()
+while True:
+    app.clear_console()
+    app.display_heading()
+    app.display_app_description()
+    navigation = app.prompt_navigation()
+
+    if navigation == "Quit":
+        break
+
+    app.clear_console()
+    app.display_heading()
+    user_name = app.prompt_user_name()
+    app.greet_user(user_name)
