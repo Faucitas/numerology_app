@@ -1,21 +1,23 @@
 from reading import Reading
 from usercalculations import UserCalculations
 from user import User
-
-fn = "thomas"
-md = "edward"
-ln = "smith"
-bd = "02011982"
-
-tommy = UserCalculations(fn, md, ln, bd)
-
-
-expression = tommy.get_expression_num()
+from art import tprint
+import app_ui as app
+from rich.console import Console
+console = Console()
 
 
 
-# Get and print a reading
-reading = Reading()
-reading.get_reading(expression)
-reading.print_reading()
+while True:
+    app.clear_console()
+    app.display_heading()
+    app.display_app_description()
+    navigation = app.prompt_navigation()
 
+    if navigation == "Quit":
+        break
+
+    app.clear_console()
+    app.display_heading()
+    user_name = app.prompt_user_name()
+    app.greet_user(user_name)

@@ -1,289 +1,347 @@
 {
   "life_path": {
-    "1": {
-      "heading": "Your life path 1 needs you to take the lead.",
+    "name": "Life Path",
+    "description": {
+      "heading": "The Life Path Number Is The Most Significant Number In Your Numerology Chart.",
       "paragraphs": [
-        "People born into the number 1 often become great leaders and for this reason, they make great entrepreneurs, freelancers, generals, commanders, CEOs and producers. Any path that takes them out ahead of the general populous and onto the front lines of life will give them ultimate fulfillment.",
-        "Life Path Number 1s are usually blessed with motivation, enthusiasm, creativity and inspiration, and they tend to be physically healthier and mentally stronger than many other people. ",
-        "But their strong desire for success could come at a high cost – the fighting spirit of some Life Path 1s could end up alienating them from others, or alternatively see their self-esteem plummet. So it is important for ones to invest in their own personal development and foster deep and lasting self-trust."
+        "It contains clear, accurate and dependable information on what your life’s journey will actually look like. It describes the direction your life will take, the challenges you’ll encounter, and the opportunities you’ll meet. It can also reveal many of the innate traits and talents that you were born with, some of which you might not even know you possess!",
+        "Unlike many other systems of divination and forecasting, Numerology doesn’t require complex counting systems or ancient almanacs. This is because it comes from a simple set of numbers which were chosen by your soul at the moment you incarnated here on planet Earth. They were encoded then, with the keys to your life’s purpose, yet are so ordinary and familiar they are often overlooked…"
       ]
     },
-    "2": {
-      "heading": "Your life path 2 needs to you love and be loved.",
+    "directions": {
+      "heading": "The Life Path is simply based on your full birth date. Here’s how to use basic numerology to calculate yours. (As an example, let’s use someone born on November 13, 1977)",
       "paragraphs": [
-        "The most important thing for the Life Path Number 2 is connecting with others on a deep, soulful level, so those born into this number tend to be diplomatic, sensitive individuals who make great judges, mediators, lawyers counselors or social workers.",
-        "Life Path 2s have the ability to bring harmony and ease to all group situations.",
-        "It is very important for those living out this vibration to get out and socialize, otherwise they risk feeling isolated and pessimistic, and suffering from lethargy and depression. But their empathic tendencies mean that twos may also feel too responsible for the wellbeing of others, so creating firm boundaries are key."
+        "ONE – Reduce your month of birth to a one-digit number. November is the 11th month of the year, so 1 + 1 = 2",
+        "TWO – Reduce your day of birth to a one-digit number. In our example, this is the 13th, so 1 + 3 = 4",
+        "THREE – Reduce your year of birth down to a one-digit digit. The year is 1977, so 1 + 9 + 7 + 7 = 24, and 2 + 4 = 6",
+        "FOUR – Then add those 3 numbers together, and reduce this to a single digit (or Master Number)…. Easy! In our example, 2 + 4 + 6 = 12, and 1 + 2 = 3, so the Life Path Number is 3."
       ]
     },
-    "3": {
-      "heading": "Your life path 3 needs you to be seen!",
-      "paragraphs": [
-        "Life Path Number 3s are the entertainers of the world and most of these people are truly gifted musicians, writers, actors, dancers, public speakers and politicians.",
-        "The Life Path 3 is one that is characterized by beauty, excitement, eccentricity and fame. It’s very important for those living out this vibration to find authentic ways to express their inner essence and be truly seen (behind the mask, and beyond the stage) and for many, this is the real challenge.",
-        "Some threes stray from their path, giving up their dreams and talents and some even escape into drug abuse or promiscuity in a bid to silence their inner calling. For this reason, 3s must retain their sense of childlike wonder, play and relentlessly fuel their creativity."
-      ]
-    },
-    "4": {
-      "heading": "Your Life Path 4 needs you to find stability.",
-      "paragraphs": [
-        "Life Path Number 4s are often the pillars of their communities. These individuals are hard working, practical and trustworthy, and as such, make fantastic marriage and business partners, teachers, mentors and advisors. Their resourceful nature means that they are able to create something out of nothing and are often called upon in a crisis!",
-        "However, self-sacrificing fours often demand too much both of themselves and others and can develop reputations as martyrs or tyrants: Their will-power and tenacity being misinterpreted as greed and stubbornness. This completely baffles the confused Number 4 whose intentions are usually to benefit the good of all, so it is important for those living through this vibration to regularly release some of their perfectionist tendencies and practice kindness and compassion for both themselves and others."
-      ]
-    },
-    "5": {
-      "heading": "Your Life Path 5 needs you to find freedom!",
-      "paragraphs": [
-        "Life Path Number 5s are highly inquisitive individuals who consider hands-on experience to be the best teacher in life. Many people living out this vibration are deeply intelligent, philosophical and spiritually-minded, as well as being great communicators that make excellent social anthropologists, archaeologists, teachers, writers and historians.",
-        "However, Number 5s can tend towards being self-absorbed and unaware of the more widespread effects of their footloose and seemingly reckless actions.",
-        "The avoidance of commitment of many fives can also prevent deep and loyal bonds forming between them and the people in their lives, so it is really important for these folk to find ways of experiencing freedom and variety, without running away from responsibility and hurting their families."
-      ]
-    },
-    "6": {
-      "heading": "Your Life Path 6 needs you to nurture.",
-      "paragraphs": [
-        "Life Path 6s are usually people-pleasers that have a need to feel indispensable to others. For this reason, many often dedicate their lives to being caregivers and service providers such as doctors, nurses, counselors, firefighters and law keepers.",
-        "The Number 6 is usually characterized by family, home, space-holding and witness. It’s very important for these people to find ways to care for and nourish themselves, as they can easily give so much to others that they end up energetically depleted. For many, this is the real challenge.",
-        "In fact, the obligation that many sixes feel is such that they may find themselves enslaved to an addicted or mentally ill partner, and entwined in a codependent relationship. This is a sign that they have become enablers rather than healers, so this fine line needs to be learned and walked carefully by those on this path."
-      ]
-    },
-    "7": {
-      "heading": "Your Life Path 7 needs you to seek out knowledge.",
-      "paragraphs": [
-        "Life Path Number 7s are intellectual and studious personalities and often pursue advanced academic careers. These analytical deep-thinkers make great mathematicians, engineers, inventors, scientists and doctors.",
-        "This numerical vibration is one that’s characterized by the quest to know how it works, and what it all means. The love of learning held by sevens requires a great deal of private time to cultivate their knowledge. Indulging in practical experiments and training is also vital – those on this Life Path are often incredibly talented with their hands.",
-        "It’s very important for Number 7s to find ways to trust their own mind and heart. Overthinking can be a real problem, which can quickly lead to self-doubt and the inability to make decisions. Connecting to their instincts, and opening up to others can be a challenge, but also a path to success and fulfilment."
-      ]
-    },
-    "8": {
-      "heading": "Your Life Path 8 needs you to find ways to achieve and prosper.",
-      "paragraphs": [
-        "Life Path Number 8s are usually confident, charismatic individuals, and their life purpose often centres around learning to manipulate money and power without becoming corrupted in the process. They make great landowners, business owners, builders and bankers.",
-        "Eights have tremendous potential for improving the lives of thousands, perhaps millions of people, as their sphere of influence can be huge (often without them having to do a thing!) But sometimes the pursuit of riches and material wealth can become more important than their personal relationships and integrity. This is why it’s important for those living out this vibration to develop an exceptionally strong moral compass and ensure they are aligning every step they take with their personal core values.",
-        "Number 8s must also avoid adopting a victim mentality. It’s likely they will face hardships in life, so their challenge is learning to bounce back."
-      ]
-    },
-    "9": {
-      "heading": "Your Life Path 9 needs you to heal the world through embodied wisdom.",
-      "paragraphs": [
-        "Life Path 9s are often old souls who can see the bigger picture, and are destined to travel a humanitarian path – they want to heal the world, and can see how to do it.",
-        "These sophisticated individuals are selfless and patient, trustworthy and honorable from the beginning to the end of their lives, so these folk make great environmentalists, teachers, artists, priests and healers.",
-        "Nines have a very stable and grounding air and have so much wisdom to impart that they can sometimes come across as condescending or even very controlling. So it is vital for those living through this number to live as a shining example – to practice what they preach, and also to know when to let people make their own mistakes.",
-        "Number 9s can also be particularly idealistic, so they must learn to surrender some of this, lest they become disillusioned and upset when life and people don’t live up to their high expectations."
-      ]
-    },
-    "11": {
-      "heading": "Your Life Path 11 is a search for enlightenment.",
-      "paragraphs": [
-        "Life Paths 11s tend to lead a life of extremes, swinging from challenge and (necessary) hardships to ecstatic growth and discoveries.",
-        "These avant-garde and visionary individuals make great students, psychics, mystics, healers, teachers, writers, musicians and artists.",
-        "Many of those living Master Numbers are “wounded healers” who at some point in their life suffer a devastating experience that propels them onto a spiritual path. This is often the beginning of their quest to discover and trust their unique voice and purpose, and lead life from the heart (and not based on others expectations). However, along with these wake-up calls, toxic emotional baggage and a harsh inner critic will also often come along for the ride.",
-        "It takes many elevens their entire life to rid themselves of the chip on their shoulder and achieve an enlightened perspective, but when they do they become a shining light, leading the way for others to do the same."
-      ]
-    },
-    "22": {
-      "heading": "Your Life Path 22 is the path of the master builder.",
-      "paragraphs": [
-        "Life Path 22s are powerful manifestors, and if they are willing to work hard on what they desire they can achieve enormous prestige, success and fame.",
-        "They are the most capable of all Life Path Numbers, being incredibly practical and grounded but they are also visionary individuals who have unique and original ideas.",
-        "Their talents for manifesting ideas into the realm of reality mean that they make great architects, planners, world or political leaders and ambassadors.",
-        "These people are inherently fairly-minded, diplomatic and generous, with a desire to share and distribute material wealth.",
-        "Some Number 22s stray from their path, giving up their dreams ambitions, staying confined in the stability and structure of what they know. Like 11s, it takes many twenty twos their entire life to step outside of their comfort zone and into their power. For this reason, those living through this Master Number must retain their connection to their intuition and listen to that inner voice when it speaks."
-      ]
+    "readings": {
+      "1": {
+        "heading": "Your life path 1 needs you to take the lead.",
+        "paragraphs": [
+          "People born into the number 1 often become great leaders and for this reason, they make great entrepreneurs, freelancers, generals, commanders, CEOs and producers. Any path that takes them out ahead of the general populous and onto the front lines of life will give them ultimate fulfillment.",
+          "Life Path Number 1s are usually blessed with motivation, enthusiasm, creativity and inspiration, and they tend to be physically healthier and mentally stronger than many other people. ",
+          "But their strong desire for success could come at a high cost – the fighting spirit of some Life Path 1s could end up alienating them from others, or alternatively see their self-esteem plummet. So it is important for ones to invest in their own personal development and foster deep and lasting self-trust."
+        ]
+      },
+      "2": {
+        "heading": "Your life path 2 needs to you love and be loved.",
+        "paragraphs": [
+          "The most important thing for the Life Path Number 2 is connecting with others on a deep, soulful level, so those born into this number tend to be diplomatic, sensitive individuals who make great judges, mediators, lawyers counselors or social workers.",
+          "Life Path 2s have the ability to bring harmony and ease to all group situations.",
+          "It is very important for those living out this vibration to get out and socialize, otherwise they risk feeling isolated and pessimistic, and suffering from lethargy and depression. But their empathic tendencies mean that twos may also feel too responsible for the wellbeing of others, so creating firm boundaries are key."
+        ]
+      },
+      "3": {
+        "heading": "Your life path 3 needs you to be seen!",
+        "paragraphs": [
+          "Life Path Number 3s are the entertainers of the world and most of these people are truly gifted musicians, writers, actors, dancers, public speakers and politicians.",
+          "The Life Path 3 is one that is characterized by beauty, excitement, eccentricity and fame. It’s very important for those living out this vibration to find authentic ways to express their inner essence and be truly seen (behind the mask, and beyond the stage) and for many, this is the real challenge.",
+          "Some threes stray from their path, giving up their dreams and talents and some even escape into drug abuse or promiscuity in a bid to silence their inner calling. For this reason, 3s must retain their sense of childlike wonder, play and relentlessly fuel their creativity."
+        ]
+      },
+      "4": {
+        "heading": "Your Life Path 4 needs you to find stability.",
+        "paragraphs": [
+          "Life Path Number 4s are often the pillars of their communities. These individuals are hard working, practical and trustworthy, and as such, make fantastic marriage and business partners, teachers, mentors and advisors. Their resourceful nature means that they are able to create something out of nothing and are often called upon in a crisis!",
+          "However, self-sacrificing fours often demand too much both of themselves and others and can develop reputations as martyrs or tyrants: Their will-power and tenacity being misinterpreted as greed and stubbornness. This completely baffles the confused Number 4 whose intentions are usually to benefit the good of all, so it is important for those living through this vibration to regularly release some of their perfectionist tendencies and practice kindness and compassion for both themselves and others."
+        ]
+      },
+      "5": {
+        "heading": "Your Life Path 5 needs you to find freedom!",
+        "paragraphs": [
+          "Life Path Number 5s are highly inquisitive individuals who consider hands-on experience to be the best teacher in life. Many people living out this vibration are deeply intelligent, philosophical and spiritually-minded, as well as being great communicators that make excellent social anthropologists, archaeologists, teachers, writers and historians.",
+          "However, Number 5s can tend towards being self-absorbed and unaware of the more widespread effects of their footloose and seemingly reckless actions.",
+          "The avoidance of commitment of many fives can also prevent deep and loyal bonds forming between them and the people in their lives, so it is really important for these folk to find ways of experiencing freedom and variety, without running away from responsibility and hurting their families."
+        ]
+      },
+      "6": {
+        "heading": "Your Life Path 6 needs you to nurture.",
+        "paragraphs": [
+          "Life Path 6s are usually people-pleasers that have a need to feel indispensable to others. For this reason, many often dedicate their lives to being caregivers and service providers such as doctors, nurses, counselors, firefighters and law keepers.",
+          "The Number 6 is usually characterized by family, home, space-holding and witness. It’s very important for these people to find ways to care for and nourish themselves, as they can easily give so much to others that they end up energetically depleted. For many, this is the real challenge.",
+          "In fact, the obligation that many sixes feel is such that they may find themselves enslaved to an addicted or mentally ill partner, and entwined in a codependent relationship. This is a sign that they have become enablers rather than healers, so this fine line needs to be learned and walked carefully by those on this path."
+        ]
+      },
+      "7": {
+        "heading": "Your Life Path 7 needs you to seek out knowledge.",
+        "paragraphs": [
+          "Life Path Number 7s are intellectual and studious personalities and often pursue advanced academic careers. These analytical deep-thinkers make great mathematicians, engineers, inventors, scientists and doctors.",
+          "This numerical vibration is one that’s characterized by the quest to know how it works, and what it all means. The love of learning held by sevens requires a great deal of private time to cultivate their knowledge. Indulging in practical experiments and training is also vital – those on this Life Path are often incredibly talented with their hands.",
+          "It’s very important for Number 7s to find ways to trust their own mind and heart. Overthinking can be a real problem, which can quickly lead to self-doubt and the inability to make decisions. Connecting to their instincts, and opening up to others can be a challenge, but also a path to success and fulfilment."
+        ]
+      },
+      "8": {
+        "heading": "Your Life Path 8 needs you to find ways to achieve and prosper.",
+        "paragraphs": [
+          "Life Path Number 8s are usually confident, charismatic individuals, and their life purpose often centres around learning to manipulate money and power without becoming corrupted in the process. They make great landowners, business owners, builders and bankers.",
+          "Eights have tremendous potential for improving the lives of thousands, perhaps millions of people, as their sphere of influence can be huge (often without them having to do a thing!) But sometimes the pursuit of riches and material wealth can become more important than their personal relationships and integrity. This is why it’s important for those living out this vibration to develop an exceptionally strong moral compass and ensure they are aligning every step they take with their personal core values.",
+          "Number 8s must also avoid adopting a victim mentality. It’s likely they will face hardships in life, so their challenge is learning to bounce back."
+        ]
+      },
+      "9": {
+        "heading": "Your Life Path 9 needs you to heal the world through embodied wisdom.",
+        "paragraphs": [
+          "Life Path 9s are often old souls who can see the bigger picture, and are destined to travel a humanitarian path – they want to heal the world, and can see how to do it.",
+          "These sophisticated individuals are selfless and patient, trustworthy and honorable from the beginning to the end of their lives, so these folk make great environmentalists, teachers, artists, priests and healers.",
+          "Nines have a very stable and grounding air and have so much wisdom to impart that they can sometimes come across as condescending or even very controlling. So it is vital for those living through this number to live as a shining example – to practice what they preach, and also to know when to let people make their own mistakes.",
+          "Number 9s can also be particularly idealistic, so they must learn to surrender some of this, lest they become disillusioned and upset when life and people don’t live up to their high expectations."
+        ]
+      },
+      "11": {
+        "heading": "Your Life Path 11 is a search for enlightenment.",
+        "paragraphs": [
+          "Life Paths 11s tend to lead a life of extremes, swinging from challenge and (necessary) hardships to ecstatic growth and discoveries.",
+          "These avant-garde and visionary individuals make great students, psychics, mystics, healers, teachers, writers, musicians and artists.",
+          "Many of those living Master Numbers are “wounded healers” who at some point in their life suffer a devastating experience that propels them onto a spiritual path. This is often the beginning of their quest to discover and trust their unique voice and purpose, and lead life from the heart (and not based on others expectations). However, along with these wake-up calls, toxic emotional baggage and a harsh inner critic will also often come along for the ride.",
+          "It takes many elevens their entire life to rid themselves of the chip on their shoulder and achieve an enlightened perspective, but when they do they become a shining light, leading the way for others to do the same."
+        ]
+      },
+      "22": {
+        "heading": "Your Life Path 22 is the path of the master builder.",
+        "paragraphs": [
+          "Life Path 22s are powerful manifestors, and if they are willing to work hard on what they desire they can achieve enormous prestige, success and fame.",
+          "They are the most capable of all Life Path Numbers, being incredibly practical and grounded but they are also visionary individuals who have unique and original ideas.",
+          "Their talents for manifesting ideas into the realm of reality mean that they make great architects, planners, world or political leaders and ambassadors.",
+          "These people are inherently fairly-minded, diplomatic and generous, with a desire to share and distribute material wealth.",
+          "Some Number 22s stray from their path, giving up their dreams ambitions, staying confined in the stability and structure of what they know. Like 11s, it takes many twenty twos their entire life to step outside of their comfort zone and into their power. For this reason, those living through this Master Number must retain their connection to their intuition and listen to that inner voice when it speaks."
+        ]
+      }
     }
   },
   "soul_urge": {
-    "1": {
-      "heading": "Your Soul Urge is to be the driving force in life.",
+    "name": "Soul Urge",
+    "description": {
+      "heading": "Numerology Basics: What Is The Soul Urge Number?",
       "paragraphs": [
-        "You have a deep belief that what you feel, say and do has great value in the world (and you’re right).",
-        "You desire to be heard, and for others to follow your lead. You trust your own instincts, often above the views and perspectives of others, and have the makings of a great leader and a pioneer for change.",
-        "You may have issues with authority throughout your life, not least because your self-assuredness often means that others look to you for guidance and direction, regardless of the position you take.",
-        "You are committed and loyal, however, your dominant nature means others are easily silenced in your presence, and you may not even notice the hurt feelings of those you leave in your wake. You must be careful that your confidence isn’t Meningconfused with arrogance, and your desire for progress doesn’t create needless competition.",
-        "Whilst you’ll never be fulfilled unless in a position of authority or power, try to make friends on the way up. You never know when you may need some loyalty in return."
+        "Often referred to as the Heart’s Desire, or Soul Number, this core element of your personal numerology chart peels back the layers of your Numerology chart.",
+        "Whilst your Life Path Number gives meaning to the direction of your journey through life, and your Destiny Number reveals your gifts, talents, and unique offerings to the world, the Soul Urge Number is what unlocks the deeper you, the eternal, spiritual you, the you which is so often hidden from the outside world.",
+        "Deciphering this hidden, personal code reveals your core desires, your inner cravings and urges, your passions and your fears and what motivates you on a deep, spiritual level. The Soul Urge, quite simply, reveals the guiding force behind what your Soul came here to experience in this lifetime.",
+        "Once this number is uncovered, for many people, life begins to make sense. Depression and anxiety often lift, as the stirrings of the Soul can be finally recognized, nurtured, and given the fuel that it need to thrive and find meaning in the world."
       ]
     },
-    "2": {
-      "heading": "Your Soul Urge is to be needed, admired and loved by all.",
+    "directions": {
+      "heading": "In Pythagorean Numerology, the Soul Urge Number (like the Destiny/ Expression Number) comes from the letters in your full name. However, to calculate it, we use only the vowels.",
       "paragraphs": [
-        "You are motivated by relationships and have a deep need to connect with others. You are sensitive and tactful and always striving to ensure harmony, balance and cooperation prevail wherever you are. In fact, life can begin to feel very uncomfortable, very quickly at the first sign of conflict or drama, so you do your very best to keep the peace (and it’s something you’re good at!)",
-        "You may have issues with self-trust throughout your life, not because you don’t value yourself, but because you always need someone else’s opinion or perspective to measure, contrast or connect to your own. Without an external point of reference, you can feel lost, or even lonely.",
-        "Your strong, often intuitive connection to others means that you’re a natural team player and a valuable contributor to the whole. But you must ensure that your kindness and sensitivity doesn’t leave you too open or vulnerable. Strong emotional boundaries will ensure you’re not taken advantage of in life."
+        "ONE – First eliminate all of the consonants in your full birth name, so that you have only vowels remaining.",
+        "TWO – Take the values assigned to each of these letters and add them all together.",
+        "THREE – Add those numbers together, and reduce this to a single digit (or Master Number). Easy!"
       ]
     },
-    "3": {
-      "heading": "Your Soul Urge is to cultivate and express your own personal magic.",
-      "paragraphs": [
-        "You’re inspiring, witty and original and instinctively see the positive side to every situation. You seek pleasure and fun and this makes you magnetic to other people, as you can’t help but share your shiny perspective with everyone around you.",
-        "You’re a performer at heart and love nothing more than an adoring audience. This means you have the potential to achieve great fame and recognition in your life, especially within the Arts.",
-        "You’re likely to be disorganized and even scattered in your approach to life. This can make you appear uncommitted or disloyal, so it’s vital for you to learn to channel and devote your creativity to fewer, larger projects as you grow.",
-        "You will always have critics in life – this is part of the territory for a Soul Urge 3, so your challenge is to rise above them and develop fierce self-love."
-      ]
-    },
-    "4": {
-      "heading": "Your Soul Urge is to find beauty, order and stability in the chaos of life.",
-      "paragraphs": [
-        "You find a Zen-like satisfaction in performing the simplest repetitive, domestic or practical chores as you feel in most alignment with your essence when restoring harmony to unbalanced situations. You are a creator of systems and love to make plans and organize the world around you. Others feel an innate sense of security and stability when near you, and you’re often called upon for advice and counsel.",
-        "It’s likely that you fear change or uncertainty, which means you may miss out on opportunities to grow. It’s important that you give yourself enough space for spontaneous actions, and frequently do things which take you out of your comfort zone.",
-        "You’re incredibly loyal, patient and generous. But your straight-talking attitude can sometimes be received as a little harsh or unkind (though never intentional) so developing greater skills of empathy and tact, would likely serve you well."
-      ]
-    },
-    "5": {
-      "heading": "Your Soul Urge is to experience as much variety as you can.",
-      "paragraphs": [
-        "You have an inquisitive mind and a thirst for adventure that is only satisfied when you’re on a quest of discovery. Travel is your passion, and you feel at your most alive when you’re on the open road, meeting new people and experiencing new things. This means that you may quickly become jaded or restless and struggle with commitment in ordinary life. And if you feel too hemmed in, either by a situation or a partner, then you’ll quickly find ways to rebel.",
-        "Your enthusiasm inspires others and you easily make friends. Unfortunately, maintaining these relationships can be much harder for you, as once the initial spark of excitement has worn off you’re often resistant to opening up to others in deeper ways.",
-        "You have an innate sense of trust that the Universe will look after you, but don’t easily share this trust with the people in your life, so learning to be vulnerable with others is a great challenge, but one which will ultimately bring you much strength and fulfilment."
-      ]
-    },
-    "6": {
-      "heading": "Your Soul Urge is to nurture and care for others.",
-      "paragraphs": [
-        "You love people and have a true gift for creating the right conditions for others to flourish and reach their highest potentials. You have a deep need to provide for other peoples needs and an intuitive sense of what those needs are.",
-        "You are happiest when you can see the positive results of your influence unfolding, and witness the people around you thriving and happy. But this selfless approach to life can often lead to you neglecting your own needs, so you must ensure your energy does not become depleted and you regularly care for yourself, as much as for others.",
-        "You may have perfectionist tendencies, leading to very high expectations of yourself and of others which means it can be very difficult for you or anybody else to reach the lofty goals you set. This can lead to disappointment and resentment, so you must learn to let go, or true fulfilment and happiness will always be elusive."
-      ]
-    },
-    "7": {
-      "heading": "Your Soul Urge is to discover meaning in the world around you.",
-      "paragraphs": [
-        "You’re a natural seeker of knowledge, on an endless quest to find out the “hows” and “whys” of life. Whether in scientific, historical, literary or mystical realms, you have a deep yearning to always understand more.",
-        "Because of your questioning nature, you can often feel as though you don’t quite belong in the world. That others are able to simply accept things at face value is a mystery to you, so it’s likely that you instinctively separate yourself from them and may be perceived as an outsider.",
-        "In truth, you are unique, and your perspectives are of great value to the world. Discovering healthy expressions and outlets for your thoughts and theories is vital if you are to fulfil your potential, and gain the trust of your peers.",
-        "You must also work to develop self-trust, as however much groundwork and research you do, ultimately, your truth will be found within."
-      ]
-    },
-    "8": {
-      "heading": "Your Soul Urge is to find power, status and prosperity.",
-      "paragraphs": [
-        "You are motivated by success and achievement, especially when it’s rewarded financially. But this isn’t a selfish yearning – your desire to control resources stems from a deep need to improve the lives of others and distribute wealth accordingly. You understand commerce, trade and industry and want it to benefit those you love.",
-        "You are confident, ambitious and have high levels of stamina. Your strong sense of purpose may come across as domineering to others, but really you just want to achieve the success that you work so hard for!",
-        "Your challenge is not to be overcome by material gains, but to go the extra mile and use the money and power that you so naturally magnetize, for the greater good. You are a natural leader, so ensure that you lead by example and act with integrity at all times. You have the capacity to instil great trust and respect from others, so it’s vital that the power you wield isn’t abused."
-      ]
-    },
-    "9": {
-      "heading": "Your Soul Urge is to make the world a better place for the collective.",
-      "paragraphs": [
-        "You’re a humanitarian at heart, and yearn to leave a lasting legacy of wellness and love wherever you go. Deeply altruistic, you only want the best for people, and have the rare gift of seeing into their souls and knowing exactly what this is.",
-        "You have visionary perspectives and are unwaveringly positive. You have the uncanny ability to always see (and believe) in the best possible outcome in any situation.",
-        "You desire to impart your wisdom, experience and insight to others, but must be careful that your well-wishes don’t come across as overbearing. Often regarded as someone who has all the answers (and willingly offers them) can mean that others come to resent and rebel against your advice. Or alternatively they resist thinking for themselves when they’re around you, so you must be very careful that your desire to help doesn’t interfere with others’ need to find their own way through life, and crucially, make their own mistakes.",
-        "It is also important for you to learn the art of fair exchange. You have such a generous spirit that you can easily give, give and give without receiving anything in return. Your idealistic nature would love to believe you are setting an example, but in reality, you could be creating an unhealthy imbalance of energy."
-      ]
-    },
-    "11": {
-      "heading": "Your Soul Urge is to trust your inner voice, and express this confidently into the world.",
-      "paragraphs": [
-        "You are a sensitive and insightful soul, and it’s likely that you have psychic gifts and the ability to channel high-frequency information. This can be a challenge – you may often feel ungrounded or nervous, or too empathically aware of what others are feeling.",
-        "You are creative and have a calming influence on others. In fact, its likely that other people are instinctively drawn to you, sensing your highly healing frequencies by simply being in your presence.",
-        "You may often feel like you are on a search for deep, spiritual truths and try to find these in many other people and their teachings. But your challenge is to go within and seek the peace you so desire inside of yourself."
-      ]
-    },
-    "22": {
-      "heading": "Your Soul Urge is to catalyze the transformation of the world.",
-      "paragraphs": [
-        "You are a visionary, and an architect of the future. Your utopian perspectives inspire others and provide the ambitious goals that others need to continually evolve. But you are also grounded, stable and practical so it’s unlikely that you regard your visions as anything but ordinary!",
-        "Just like the Soul Urge 4, others feel an innate sense of security and stability when near you, so you inspire a great deal of confidence in them. As such, you will make a great leader, manager, and organizer of people. In fact, you will begin to realize your true calling only when you begin to see your grandest visions materializing with the help of others, whom you have carefully directed.",
-        "You must be sure that you follow your souls calling in life, and do not become lethargic and too safely confined in your comfort zone. Soul Urge 22s are destined for great things, but courage and self-belief must come first, lest their talents are frittered away."
-      ]
+    "readings": {
+      "1": {
+        "heading": "Your Soul Urge is to be the driving force in life.",
+        "paragraphs": [
+          "You have a deep belief that what you feel, say and do has great value in the world (and you’re right).",
+          "You desire to be heard, and for others to follow your lead. You trust your own instincts, often above the views and perspectives of others, and have the makings of a great leader and a pioneer for change.",
+          "You may have issues with authority throughout your life, not least because your self-assuredness often means that others look to you for guidance and direction, regardless of the position you take.",
+          "You are committed and loyal, however, your dominant nature means others are easily silenced in your presence, and you may not even notice the hurt feelings of those you leave in your wake. You must be careful that your confidence isn’t Meningconfused with arrogance, and your desire for progress doesn’t create needless competition.",
+          "Whilst you’ll never be fulfilled unless in a position of authority or power, try to make friends on the way up. You never know when you may need some loyalty in return."
+        ]
+      },
+      "2": {
+        "heading": "Your Soul Urge is to be needed, admired and loved by all.",
+        "paragraphs": [
+          "You are motivated by relationships and have a deep need to connect with others. You are sensitive and tactful and always striving to ensure harmony, balance and cooperation prevail wherever you are. In fact, life can begin to feel very uncomfortable, very quickly at the first sign of conflict or drama, so you do your very best to keep the peace (and it’s something you’re good at!)",
+          "You may have issues with self-trust throughout your life, not because you don’t value yourself, but because you always need someone else’s opinion or perspective to measure, contrast or connect to your own. Without an external point of reference, you can feel lost, or even lonely.",
+          "Your strong, often intuitive connection to others means that you’re a natural team player and a valuable contributor to the whole. But you must ensure that your kindness and sensitivity doesn’t leave you too open or vulnerable. Strong emotional boundaries will ensure you’re not taken advantage of in life."
+        ]
+      },
+      "3": {
+        "heading": "Your Soul Urge is to cultivate and express your own personal magic.",
+        "paragraphs": [
+          "You’re inspiring, witty and original and instinctively see the positive side to every situation. You seek pleasure and fun and this makes you magnetic to other people, as you can’t help but share your shiny perspective with everyone around you.",
+          "You’re a performer at heart and love nothing more than an adoring audience. This means you have the potential to achieve great fame and recognition in your life, especially within the Arts.",
+          "You’re likely to be disorganized and even scattered in your approach to life. This can make you appear uncommitted or disloyal, so it’s vital for you to learn to channel and devote your creativity to fewer, larger projects as you grow.",
+          "You will always have critics in life – this is part of the territory for a Soul Urge 3, so your challenge is to rise above them and develop fierce self-love."
+        ]
+      },
+      "4": {
+        "heading": "Your Soul Urge is to find beauty, order and stability in the chaos of life.",
+        "paragraphs": [
+          "You find a Zen-like satisfaction in performing the simplest repetitive, domestic or practical chores as you feel in most alignment with your essence when restoring harmony to unbalanced situations. You are a creator of systems and love to make plans and organize the world around you. Others feel an innate sense of security and stability when near you, and you’re often called upon for advice and counsel.",
+          "It’s likely that you fear change or uncertainty, which means you may miss out on opportunities to grow. It’s important that you give yourself enough space for spontaneous actions, and frequently do things which take you out of your comfort zone.",
+          "You’re incredibly loyal, patient and generous. But your straight-talking attitude can sometimes be received as a little harsh or unkind (though never intentional) so developing greater skills of empathy and tact, would likely serve you well."
+        ]
+      },
+      "5": {
+        "heading": "Your Soul Urge is to experience as much variety as you can.",
+        "paragraphs": [
+          "You have an inquisitive mind and a thirst for adventure that is only satisfied when you’re on a quest of discovery. Travel is your passion, and you feel at your most alive when you’re on the open road, meeting new people and experiencing new things. This means that you may quickly become jaded or restless and struggle with commitment in ordinary life. And if you feel too hemmed in, either by a situation or a partner, then you’ll quickly find ways to rebel.",
+          "Your enthusiasm inspires others and you easily make friends. Unfortunately, maintaining these relationships can be much harder for you, as once the initial spark of excitement has worn off you’re often resistant to opening up to others in deeper ways.",
+          "You have an innate sense of trust that the Universe will look after you, but don’t easily share this trust with the people in your life, so learning to be vulnerable with others is a great challenge, but one which will ultimately bring you much strength and fulfilment."
+        ]
+      },
+      "6": {
+        "heading": "Your Soul Urge is to nurture and care for others.",
+        "paragraphs": [
+          "You love people and have a true gift for creating the right conditions for others to flourish and reach their highest potentials. You have a deep need to provide for other peoples needs and an intuitive sense of what those needs are.",
+          "You are happiest when you can see the positive results of your influence unfolding, and witness the people around you thriving and happy. But this selfless approach to life can often lead to you neglecting your own needs, so you must ensure your energy does not become depleted and you regularly care for yourself, as much as for others.",
+          "You may have perfectionist tendencies, leading to very high expectations of yourself and of others which means it can be very difficult for you or anybody else to reach the lofty goals you set. This can lead to disappointment and resentment, so you must learn to let go, or true fulfilment and happiness will always be elusive."
+        ]
+      },
+      "7": {
+        "heading": "Your Soul Urge is to discover meaning in the world around you.",
+        "paragraphs": [
+          "You’re a natural seeker of knowledge, on an endless quest to find out the “hows” and “whys” of life. Whether in scientific, historical, literary or mystical realms, you have a deep yearning to always understand more.",
+          "Because of your questioning nature, you can often feel as though you don’t quite belong in the world. That others are able to simply accept things at face value is a mystery to you, so it’s likely that you instinctively separate yourself from them and may be perceived as an outsider.",
+          "In truth, you are unique, and your perspectives are of great value to the world. Discovering healthy expressions and outlets for your thoughts and theories is vital if you are to fulfil your potential, and gain the trust of your peers.",
+          "You must also work to develop self-trust, as however much groundwork and research you do, ultimately, your truth will be found within."
+        ]
+      },
+      "8": {
+        "heading": "Your Soul Urge is to find power, status and prosperity.",
+        "paragraphs": [
+          "You are motivated by success and achievement, especially when it’s rewarded financially. But this isn’t a selfish yearning – your desire to control resources stems from a deep need to improve the lives of others and distribute wealth accordingly. You understand commerce, trade and industry and want it to benefit those you love.",
+          "You are confident, ambitious and have high levels of stamina. Your strong sense of purpose may come across as domineering to others, but really you just want to achieve the success that you work so hard for!",
+          "Your challenge is not to be overcome by material gains, but to go the extra mile and use the money and power that you so naturally magnetize, for the greater good. You are a natural leader, so ensure that you lead by example and act with integrity at all times. You have the capacity to instill great trust and respect from others, so it’s vital that the power you wield isn’t abused."
+        ]
+      },
+      "9": {
+        "heading": "Your Soul Urge is to make the world a better place for the collective.",
+        "paragraphs": [
+          "You’re a humanitarian at heart, and yearn to leave a lasting legacy of wellness and love wherever you go. Deeply altruistic, you only want the best for people, and have the rare gift of seeing into their souls and knowing exactly what this is.",
+          "You have visionary perspectives and are unwaveringly positive. You have the uncanny ability to always see (and believe) in the best possible outcome in any situation.",
+          "You desire to impart your wisdom, experience and insight to others, but must be careful that your well-wishes don’t come across as overbearing. Often regarded as someone who has all the answers (and willingly offers them) can mean that others come to resent and rebel against your advice. Or alternatively they resist thinking for themselves when they’re around you, so you must be very careful that your desire to help doesn’t interfere with others’ need to find their own way through life, and crucially, make their own mistakes.",
+          "It is also important for you to learn the art of fair exchange. You have such a generous spirit that you can easily give, give and give without receiving anything in return. Your idealistic nature would love to believe you are setting an example, but in reality, you could be creating an unhealthy imbalance of energy."
+        ]
+      },
+      "11": {
+        "heading": "Your Soul Urge is to trust your inner voice, and express this confidently into the world.",
+        "paragraphs": [
+          "You are a sensitive and insightful soul, and it’s likely that you have psychic gifts and the ability to channel high-frequency information. This can be a challenge – you may often feel ungrounded or nervous, or too empathically aware of what others are feeling.",
+          "You are creative and have a calming influence on others. In fact, its likely that other people are instinctively drawn to you, sensing your highly healing frequencies by simply being in your presence.",
+          "You may often feel like you are on a search for deep, spiritual truths and try to find these in many other people and their teachings. But your challenge is to go within and seek the peace you so desire inside of yourself."
+        ]
+      },
+      "22": {
+        "heading": "Your Soul Urge is to catalyze the transformation of the world.",
+        "paragraphs": [
+          "You are a visionary, and an architect of the future. Your utopian perspectives inspire others and provide the ambitious goals that others need to continually evolve. But you are also grounded, stable and practical so it’s unlikely that you regard your visions as anything but ordinary!",
+          "Just like the Soul Urge 4, others feel an innate sense of security and stability when near you, so you inspire a great deal of confidence in them. As such, you will make a great leader, manager, and organizer of people. In fact, you will begin to realize your true calling only when you begin to see your grandest visions materializing with the help of others, whom you have carefully directed.",
+          "You must be sure that you follow your souls calling in life, and do not become lethargic and too safely confined in your comfort zone. Soul Urge 22s are destined for great things, but courage and self-belief must come first, lest their talents are frittered away."
+        ]
+      }
     }
   },
   "expression": {
-    "1": {
-      "heading": "You express yourself best through your independence.",
+    "description": {
+      "heading": "The Expression or Destiny Number is the second of the core numbers in your personal numerology chart.",
       "paragraphs": [
-        "Your talents are your originality, confidence, and ability to launch plans into motion.",
-        "Willing to try new things, you are bold and courageous and at times express a competitive streak. You have the potential to become incredibly successful and equally prosperous if you can learn to effectively apply these initiating, self-starting skills as you travel through life.",
-        "Professionally and socially, you are often the person that “makes things happen” and express a real desire to reach your goals, whatever the cost.",
-        "You would make a great entrepreneur and do best by striking out on your own and taking the lead in whatever you find yourself doing.",
-        "Your highest potential is to become the leader of something great."
+        "Calculating it, and uncovering its meaning will reveal a great deal of information about your natural talents, abilities, and potentials in this lifetime.",
+        "Whilst your Life Path Number (which comes from your birth date) describes the direction of your journey through life, the Expression Number centers on what you, uniquely, have to offer to the world.",
+        "Within the art of Numerology, this is the number that contains information about your inherent gifts, talents, and skills. But also about your personal shortcomings and the potential challenges you may face. Because of this, it offers valuable insights into the areas of your personality that, with work and development, could become your greatest strengths. As such, the Destiny Number is often said to be the blueprint of your potential.",
+        "Once decoded, this number forms a highly potent portrait of your inherited personal history, up to the moment of your birth. After this point, it is your choice how your story continues. After all, we each choose our own destiny! But you will carry this powerful coding with you, for the rest of your life."
       ]
     },
-    "2": {
-      "heading": "You express yourself best through relating to others.",
+    "directions": {
+      "heading": "In Numerology, the Expression Number is calculated using the corresponding numbers for each letter in your full name at birth, according to the Pythagorean system.",
       "paragraphs": [
-        "Your gift is your sharp instincts for what is right, plus your diplomacy and great skills of negotiation.",
-        "Always willing to work alongside others, you possess a firm understanding of fairness and balance. Destiny Number 2s often have the strong desire to seek justice and create equality in the world. If you can learn to trust yourself and apply your own unique skills as you walk your path, you’ll reach great heights!",
-        "Socially you are incredibly likable, and make so many friends that this gives you a huge sphere of influence. But as your modesty means that one of your challenges is to accept credit for your work.",
-        "You work best in a team, so success for you often comes down to “who you know.” You will also do well in supportive roles, especially when you unite your efforts with someone who is more powerful than you."
+        "These are then summed and reduced until a single digit (or master number) is revealed. Remember that this number cannot come from your nickname or your married name, but must be the name that is found written in full on your birth certificate, (that’s first name, middle name/s, and surname/s) and if your name is misspelled on your birth certificate, use that to configure your Destiny number.",
+        "ONE - Take the values assigned to each letter of your entire name and add them all together.",
+        "TWO - Add those numbers together, and reduce this to a single digit (or master number) Easy!"
       ]
     },
-    "3": {
-      "heading": "You express yourself best through the arts.",
-      "paragraphs": [
-        "Your gifts may be writing, speaking, singing, acting, teaching or litigating; selling, designing or even composing music.",
-        "Although you may not realize it, one of your true gifts is your natural ability to uplift and inspire others with your words and ideas. If you can find the ideal channel for your unique voice, it is likely that your true purpose will emerge creatively, and happiness and fulfillment will be found.",
-        "Professionally, fame often lies in the potential future of the Destiny Number 3, so it is imperative that your surroundings are stable and nurturing, so that your talents are allowed to flourish."
-      ]
-    },
-    "4": {
-      "heading": "You express yourself best by grounding energy.",
-      "paragraphs": [
-        "Your skills include project management, administration and anything to do with organization, as you are highly systematic by nature and thrive in orderly, regulated atmospheres.",
-        "You are also hugely practical, work well with your hands and have an innate understanding of structure, design, and rhythm. You have the potential to invent or create plans and systems that will ease the burdens of humanity.",
-        "Professionally, the Number 4 is trustworthy and precise, so make excellent surgeons, architects, engineers, or musicians.",
-        "You’ll find success and fulfillment when your efforts are channeled into projects which will benefit the greater good."
-      ]
-    },
-    "5": {
-      "heading": "You express yourself best through the movement of energy.",
-      "paragraphs": [
-        "You are blessed with numerous skills and abilities and have the potential to sustain more than one career a time.",
-        "Willing to try anything new and unfamiliar, you risk the danger of becoming a jack of all trades and a master of none. But your multi-faceted resume allows you to indulge your adventurous spirit, stay free and resist being bound to one thing.",
-        "You are a philosophical individual who is endlessly fascinated by human nature, and strive to experience it all!",
-        "You will reach your highest potential when you find ways to effectively impart your own kind of wisdom to those who need to hear it. You may make a great teacher in the traditional sense, or break free from convention and find your ideal role doing something more unusual…!"
-      ]
-    },
-    "6": {
-      "heading": "You express yourself best through serving others. ",
-      "paragraphs": [
-        "Your talents are your ability to witness and hold space for others, and take care of and uplift the spirits of your kin.",
-        "Instinctively aware of what is required by those in need, you provide a safe haven for many people. It’s likely that you measure your own success through how much you’re able to improve the lives of others, and as such, many Expression 6s excel as doctors, nurses, psychologists and in any occupations that involve taking care of the elderly, the sick or the poor.",
-        "Your highest potential is restoring balance to ailing individuals or communities, and inspiring love by offering it unconditionally."
-      ]
-    },
-    "7": {
-      "heading": "You express yourself best by trusting where your path leads.",
-      "paragraphs": [
-        "Your talents are combining the intelligence of your heart and mind, and following your own intuition to find deeper meanings in life.",
-        "Endlessly seeking knowledge, you may have a passion for mysticism, the occult sciences, religion or social anthropology. The highest potential of your Expression Number is the invention of new concepts, thoughts or theories and finding the means to express these into the world.",
-        "Socially, it’s likely that you have reclusive tendencies as your skills, talents, and interests run deeper than simple small talk.",
-        "In your professional life, if you can learn how to navigate modern institutions and companies, you have the potential to reach extreme levels of success in research, higher learning, and academia."
-      ]
-    },
-    "8": {
-      "heading": "You express yourself best by creating prosperity.",
-      "paragraphs": [
-        "You have a natural knack for making money that is unrivaled by other Expression Numbers.",
-        "Many Expression 8s are born into wealthy families which gives them a ready-made set of privileges, that put them in good stead for high achievement in life. Whether or not this is true for you, you still have considerable potential to succeed in business and reach a position of high influence.",
-        "Expression 8s make excellent bankers, stockbrokers, and accountants: business and commerce are key areas, but your highest potential in life is not simply to get rich. It is to learn how to acquire wealth without others losing out, and then to distribute this wealth fairly"
-      ]
-    },
-    "9": {
-      "heading": "You express yourself best by calling others to action to build a better world.",
-      "paragraphs": [
-        "Your talents are your innate understanding of human nature, your idealist vision, and your unfailing optimism.",
-        "Concerned with humanitarian and social causes, you are philanthropic and wish only for a better world. You are kind, considerate and encouraging and like all Expression 9s would make an excellent teacher, counselor, or religious or spiritual guide.",
-        "It’s unlikely that you are very career driven, as your gifts cannot be pigeonholed – you help and support people in whatever ways are necessary, and as such your life experiences are many and varied.",
-        "Your highest potential in life is to achieve an enlightened perspective and inspire others by embodying your gifts, as well as advising them on their highest and best paths forward."
-      ]
-    },
-    "11": {
-      "heading": "You express yourself best through your spirituality.",
-      "paragraphs": [
-        "You are a channel for a lot of high frequency, spiritual information, and you likely have untapped psychic gifts. In the right environment, you will transform the world with your innate power and knowing.",
-        "Although you may not realize it, one of your true gifts is your natural ability to inspire others to express their inner truth. It may be a challenge to you, but expressing yourself and your vulnerabilities will be the catalyst to releasing this innate gift in you and creating a positive, transformative effect on other people’s lives.",
-        "You may be a lightworker, and be drawn to the path of mysticism, astrology, tarot or Reiki. Many Expression 11s also become powerful healers.",
-        "Your highest potential is to lead others towards reaching an enlightened perspective."
-      ]
-    },
-    "22": {
-      "heading": "You express yourself best through building the world of the future. ",
-      "paragraphs": [
-        "Your genius is holding a vision and re-shaping your reality to make it materialize!",
-        "The number 22 is called “the Master Builder” because people with this number in their charts are capable of manifesting great changes on the earthly plane. They usually do this through the construction of an empire, whether it’s social, financial or religious in nature.",
-        "You may not realize the power you that you hold, so it’s vital that you find ways to practice and flex your manifesting muscles! Your visions are bold, intuitive and inherently beneficial for humankind.",
-        "Your highest potential is to bring the ideals you hold in your heart into everyday reality, through systematic and practical means, often through effective delegation and the strong management of teams of other people, so that your energy can be preserved, and channeled into creative thought."
-      ]
+    "readings": {
+      "1": {
+        "heading": "You express yourself best through your independence.",
+        "paragraphs": [
+          "Your talents are your originality, confidence, and ability to launch plans into motion.",
+          "Willing to try new things, you are bold and courageous and at times express a competitive streak. You have the potential to become incredibly successful and equally prosperous if you can learn to effectively apply these initiating, self-starting skills as you travel through life.",
+          "Professionally and socially, you are often the person that “makes things happen” and express a real desire to reach your goals, whatever the cost.",
+          "You would make a great entrepreneur and do best by striking out on your own and taking the lead in whatever you find yourself doing.",
+          "Your highest potential is to become the leader of something great."
+        ]
+      },
+      "2": {
+        "heading": "You express yourself best through relating to others.",
+        "paragraphs": [
+          "Your gift is your sharp instincts for what is right, plus your diplomacy and great skills of negotiation.",
+          "Always willing to work alongside others, you possess a firm understanding of fairness and balance. Destiny Number 2s often have the strong desire to seek justice and create equality in the world. If you can learn to trust yourself and apply your own unique skills as you walk your path, you’ll reach great heights!",
+          "Socially you are incredibly likable, and make so many friends that this gives you a huge sphere of influence. But as your modesty means that one of your challenges is to accept credit for your work.",
+          "You work best in a team, so success for you often comes down to “who you know.” You will also do well in supportive roles, especially when you unite your efforts with someone who is more powerful than you."
+        ]
+      },
+      "3": {
+        "heading": "You express yourself best through the arts.",
+        "paragraphs": [
+          "Your gifts may be writing, speaking, singing, acting, teaching or litigating; selling, designing or even composing music.",
+          "Although you may not realize it, one of your true gifts is your natural ability to uplift and inspire others with your words and ideas. If you can find the ideal channel for your unique voice, it is likely that your true purpose will emerge creatively, and happiness and fulfillment will be found.",
+          "Professionally, fame often lies in the potential future of the Destiny Number 3, so it is imperative that your surroundings are stable and nurturing, so that your talents are allowed to flourish."
+        ]
+      },
+      "4": {
+        "heading": "You express yourself best by grounding energy.",
+        "paragraphs": [
+          "Your skills include project management, administration and anything to do with organization, as you are highly systematic by nature and thrive in orderly, regulated atmospheres.",
+          "You are also hugely practical, work well with your hands and have an innate understanding of structure, design, and rhythm. You have the potential to invent or create plans and systems that will ease the burdens of humanity.",
+          "Professionally, the Number 4 is trustworthy and precise, so make excellent surgeons, architects, engineers, or musicians.",
+          "You’ll find success and fulfillment when your efforts are channeled into projects which will benefit the greater good."
+        ]
+      },
+      "5": {
+        "heading": "You express yourself best through the movement of energy.",
+        "paragraphs": [
+          "You are blessed with numerous skills and abilities and have the potential to sustain more than one career a time.",
+          "Willing to try anything new and unfamiliar, you risk the danger of becoming a jack of all trades and a master of none. But your multi-faceted resume allows you to indulge your adventurous spirit, stay free and resist being bound to one thing.",
+          "You are a philosophical individual who is endlessly fascinated by human nature, and strive to experience it all!",
+          "You will reach your highest potential when you find ways to effectively impart your own kind of wisdom to those who need to hear it. You may make a great teacher in the traditional sense, or break free from convention and find your ideal role doing something more unusual…!"
+        ]
+      },
+      "6": {
+        "heading": "You express yourself best through serving others. ",
+        "paragraphs": [
+          "Your talents are your ability to witness and hold space for others, and take care of and uplift the spirits of your kin.",
+          "Instinctively aware of what is required by those in need, you provide a safe haven for many people. It’s likely that you measure your own success through how much you’re able to improve the lives of others, and as such, many Expression 6s excel as doctors, nurses, psychologists and in any occupations that involve taking care of the elderly, the sick or the poor.",
+          "Your highest potential is restoring balance to ailing individuals or communities, and inspiring love by offering it unconditionally."
+        ]
+      },
+      "7": {
+        "heading": "You express yourself best by trusting where your path leads.",
+        "paragraphs": [
+          "Your talents are combining the intelligence of your heart and mind, and following your own intuition to find deeper meanings in life.",
+          "Endlessly seeking knowledge, you may have a passion for mysticism, the occult sciences, religion or social anthropology. The highest potential of your Expression Number is the invention of new concepts, thoughts or theories and finding the means to express these into the world.",
+          "Socially, it’s likely that you have reclusive tendencies as your skills, talents, and interests run deeper than simple small talk.",
+          "In your professional life, if you can learn how to navigate modern institutions and companies, you have the potential to reach extreme levels of success in research, higher learning, and academia."
+        ]
+      },
+      "8": {
+        "heading": "You express yourself best by creating prosperity.",
+        "paragraphs": [
+          "You have a natural knack for making money that is unrivaled by other Expression Numbers.",
+          "Many Expression 8s are born into wealthy families which gives them a ready-made set of privileges, that put them in good stead for high achievement in life. Whether or not this is true for you, you still have considerable potential to succeed in business and reach a position of high influence.",
+          "Expression 8s make excellent bankers, stockbrokers, and accountants: business and commerce are key areas, but your highest potential in life is not simply to get rich. It is to learn how to acquire wealth without others losing out, and then to distribute this wealth fairly"
+        ]
+      },
+      "9": {
+        "heading": "You express yourself best by calling others to action to build a better world.",
+        "paragraphs": [
+          "Your talents are your innate understanding of human nature, your idealist vision, and your unfailing optimism.",
+          "Concerned with humanitarian and social causes, you are philanthropic and wish only for a better world. You are kind, considerate and encouraging and like all Expression 9s would make an excellent teacher, counselor, or religious or spiritual guide.",
+          "It’s unlikely that you are very career driven, as your gifts cannot be pigeonholed – you help and support people in whatever ways are necessary, and as such your life experiences are many and varied.",
+          "Your highest potential in life is to achieve an enlightened perspective and inspire others by embodying your gifts, as well as advising them on their highest and best paths forward."
+        ]
+      },
+      "11": {
+        "heading": "You express yourself best through your spirituality.",
+        "paragraphs": [
+          "You are a channel for a lot of high frequency, spiritual information, and you likely have untapped psychic gifts. In the right environment, you will transform the world with your innate power and knowing.",
+          "Although you may not realize it, one of your true gifts is your natural ability to inspire others to express their inner truth. It may be a challenge to you, but expressing yourself and your vulnerabilities will be the catalyst to releasing this innate gift in you and creating a positive, transformative effect on other people’s lives.",
+          "You may be a lightworker, and be drawn to the path of mysticism, astrology, tarot or Reiki. Many Expression 11s also become powerful healers.",
+          "Your highest potential is to lead others towards reaching an enlightened perspective."
+        ]
+      },
+      "22": {
+        "heading": "You express yourself best through building the world of the future. ",
+        "paragraphs": [
+          "Your genius is holding a vision and re-shaping your reality to make it materialize!",
+          "The number 22 is called “the Master Builder” because people with this number in their charts are capable of manifesting great changes on the earthly plane. They usually do this through the construction of an empire, whether it’s social, financial or religious in nature.",
+          "You may not realize the power you that you hold, so it’s vital that you find ways to practice and flex your manifesting muscles! Your visions are bold, intuitive and inherently beneficial for humankind.",
+          "Your highest potential is to bring the ideals you hold in your heart into everyday reality, through systematic and practical means, often through effective delegation and the strong management of teams of other people, so that your energy can be preserved, and channeled into creative thought."
+        ]
+      }
     }
   }
 }
