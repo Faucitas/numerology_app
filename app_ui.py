@@ -7,7 +7,7 @@ import os
 
 console = Console()
 
-with open('data/letters.json', 'r') as file:
+with open('data/app_data.json', 'r') as file:
     data: dict = json.load(file)
 LETTERS_TABLE: dict = data['letters_table']
 APP_DESCRIPTION: dict = data['app_description']
