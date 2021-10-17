@@ -1,6 +1,6 @@
 import json
 
-READINGS_DB_URL: str = 'data/readings.json'
+READINGS_DB_URL: str = './data/readings.json'
 
 # Load all readings to dict
 with open(READINGS_DB_URL, 'r') as file:
@@ -42,7 +42,7 @@ class Reading:
     def __get_description_from_db(self) -> dict:
         description: dict = READING_DB[self.reading_key]['description']
         reading_description: dict = {
-            "heading": f"{self.reading_name}",
+            "heading": self.reading_name,
             "title": description['heading'],
             "body_paragraphs": description['paragraphs']
         }

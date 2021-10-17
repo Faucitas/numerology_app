@@ -1,7 +1,7 @@
 import json
-from user import User
+from .user import User
 
-LETTERS_DB = 'data/app_data.json'
+LETTERS_DB = './data/app_data.json'
 with open(LETTERS_DB, 'r') as file:
     LETTERS: dict = json.load(file)
 

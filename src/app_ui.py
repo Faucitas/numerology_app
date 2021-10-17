@@ -6,11 +6,28 @@ import json
 import os
 
 console = Console()
+default_heading = "Numerologoy"
 
-with open('data/app_data.json', 'r') as file:
+with open('./data/app_data.json', 'r') as file:
     data: dict = json.load(file)
 LETTERS_TABLE: dict = data['letters_table']
 APP_DESCRIPTION: dict = data['app_description']
+
+
+def start_app():
+    clear_console()
+    display_heading()
+    display_app_description()
+
+
+def setup_account() -> dict:
+    clear_console()
+    console.print("To calculate you unique numbers you'll need to setup your profile first", style="bold")
+    username = prompt_user_name()
+    clear_console()
+    console.print("To calculate you unique numbers you'll need to setup your profile first", style="bold")
+    birthday = prompt_birth_date()
+    return {"username": username, "birthday": birthday}
 
 
 def prompt_user_name() -> object:
@@ -28,6 +45,7 @@ def prompt_user_name() -> object:
 def prompt_birth_date() -> object:
     validation = lambda text: True if text.isdigit() else "Please enter the a number"
     year_validation = lambda text: True if len(text) == 4 else "Enter 4 digit year"
+    console.print("Please enter your birth date", style="bold color(3)", )
     birth_date: object = qy.form(
         birth_month=qy.text("Month of birth", validate=validation),
         birth_day=qy.text("Day of birth", validate=validation),
@@ -37,6 +55,8 @@ def prompt_birth_date() -> object:
 
 
 def prompt_reading_choice() -> str:
+    clear_console()
+    display_heading()
     reading_choice: str = qy.select(
         "Which number would you like to calculate",
         choices=[
@@ -45,6 +65,7 @@ def prompt_reading_choice() -> str:
             "Expression Number"
         ]
     ).ask()
+    # Convert user selection to usable keys
     if reading_choice == "Life Path Number":
         reading_choice = "life_path"
     elif reading_choice == "Soul Urge Number":
@@ -69,19 +90,20 @@ def print_section(section: dict) -> None:
     heading: str = section['heading']
     title: str = section['title']
     body: str = section['body_paragraphs']
-    tprint(heading, font="thin3")
+    format_heading = text2art(heading, font="thin3")
+    console.print(format_heading, style="yellow")
     print("")
-    console.print(title, style="bold")
+    console.print(title, style="bold blue")
     print("")
     for paragraph in body:
         console.print(paragraph)
         print("")
 
 
-def display_heading() -> None:
-    heading_text: str = "Numerologoy"
+def display_heading(heading=default_heading) -> None:
+    heading_text: str = heading
     heading: str = text2art(heading_text.upper(), font="cybermedium")
-    print(heading)
+    console.print(heading, style="bold yellow")
 
 
 def display_letter_table() -> None:
@@ -108,10 +130,10 @@ def display_letter_table() -> None:
 
 
 def display_app_description() -> None:
-    heading: str = APP_DESCRIPTION['heading']
+    title: str = APP_DESCRIPTION['heading']
     description = {
         'heading': "Calculate your unique numbers",
-        'title': APP_DESCRIPTION['heading'],
+        'title': title,
         'body_paragraphs': APP_DESCRIPTION['paragraphs']
     }
 
